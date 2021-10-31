@@ -1,0 +1,28 @@
+.carousel-item {
+    height: 32rem;
+  }
+  
+  .carousel-item > img {
+    width: 100%;
+    object-fit: cover;
+    height: 32rem;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin-bottom: 150px;
+  }
+  
+  .carousel-caption h3 {
+    /* background-color: #3f0d12; */
+    color: rgb(255, 255, 255);
+  }
+
+  
+#btn-slider{
+    color: #fff;
+    background: linear-gradient(rgb(1, 129, 245) 0%, rgba(93, 178, 255, 0.99) 100%);
+    border-color: white;
+    border-radius:  15px;
+}
