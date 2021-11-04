@@ -1,7 +1,6 @@
 import {
     AppBar,
     Toolbar,
-    
     makeStyles,
     Button,
     IconButton,
@@ -25,7 +24,7 @@ import logo1 from "../Assets/logo1.png"
     },
     {
       label: "Services",
-      href: "/experience",
+      href: "/services",
     },
     {
       label: "Case Study",

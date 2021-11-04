@@ -1,0 +1,71 @@
+.footerIcons {
+padding:10px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  background: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 40px !important;
+  margin-right: 7px;
+  color: #FFFFFF;
+  line-height: 40px !important;
+  border: 1px solid #E8E8E8;
+  color: #E8E8E8;
+ 
+}
+
+.footerIcons:hover{
+    background-color: #007bff;
+    color:white;
+}
+
+
+
+.footerTitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #001D38;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    margin-top : 30px;
+}
+
+.footerItems {
+    color: #919191;
+    font-size: 15px;
+    line-height: 32px
+}
+
+.MuiOutlinedInput-adornedEnd{
+    padding-right: 0px!important;
+    border-radius: 32px!important;
+}
+
+.footerbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff!important;
+    background: #5DB2FF!important;
+    padding: 15px!important;
+    padding: 0 22px;
+    cursor: pointer;
+    border-radius: 30px!important;
+    top: 5px;
+    right: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 15px!important;
+    margin-left: 15px!important;
+}
+
+.MuiInputLabel-outlined{
+    display: none!important;
+}
+

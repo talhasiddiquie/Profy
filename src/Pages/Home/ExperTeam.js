@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems:"center",
     [theme.breakpoints.down("md")]: {
         flexDirection:"column",
-        
+        width:"93%"
         
       },
  },
@@ -70,6 +70,9 @@ setCardMargin:{
 imgRadius: {
     width:"100%",
     borderRadius:"25px",
+},
+imgWidth:{
+    width:"100%"
 }
      
   }));
@@ -85,7 +88,7 @@ const ExperTeam  = () => {
         <div className={classes.cardDiv}>
             <Card className={classes.setCardMargin}  >
                 <div className={classes.imgRadius} >
-                    <img alt="" src={img1} />
+                    <img className={classes.imgWidth} alt="" src={img1} />
                 </div>
                 <div className={classes.setTeamDiv} >
                     <h3>Milani Mou</h3>
@@ -100,7 +103,7 @@ const ExperTeam  = () => {
 
             <Card className={classes.setCardMargin}  >
                 <div className={classes.imgRadius} >
-                    <img alt="" src={img2} />
+                    <img  className={classes.imgWidth} alt="" src={img2} />
                 </div>
                 <div className={classes.setTeamDiv} >
                     <h3>Milani Mou</h3>
@@ -116,7 +119,7 @@ const ExperTeam  = () => {
 
             <Card className={classes.setCardMargin}  >
                 <div className={classes.imgRadius} >
-                    <img alt="" src={img3} />
+                    <img className={classes.imgWidth} alt="" src={img3} />
                 </div>
                 <div className={classes.setTeamDiv} >
                     <h3>Milani Mou</h3>
