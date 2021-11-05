@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
         border:"none"
      },
     [theme.breakpoints.down("md")]: {
-      width: "70%",
+      width: "80%",
       height: "320px",
     },
   },

@@ -1,0 +1,25 @@
+@media (min-width: 320px) and (max-width: 520px) {
+    .case-study_cards {
+        width: 300px!important;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 900px) {
+    .case-study_cards {
+        width: 100%!important;
+    }
+}
+
+
+@media (min-width: 950px) and (max-width: 1200px) {
+    .case-study_cards {
+        width: 900px!important;
+    }
+}
+
+
+@media (min-width: 1250px) and (max-width: 1660px) {
+    .case-study_cards {
+        width: 1440px!important;
+    }
+}

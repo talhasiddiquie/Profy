@@ -12,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./Components/Footer";
 import Services from "./Pages/Home/Services";
 import About from "./Pages/Home/About";
+import CaseStudyInnerPage from "./Pages/Home/CaseStudyInnerPage/CaseStudyInnerPage";
 function App() {
   return (
     <Router>
@@ -30,6 +31,9 @@ function App() {
           <About/>
         </Route>
 
+        <Route path="/casestudy" exact>
+          <CaseStudyInnerPage/>
+        </Route>
        
        
 
