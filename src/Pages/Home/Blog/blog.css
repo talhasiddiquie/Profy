@@ -1,0 +1,33 @@
+.blog_item_img .blog_item_date {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    display: block;
+    color: #fff;
+    background-color: #5DB2FF;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+
+  @media (min-width: 768px) {
+    /* line 599, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog.scss */
+    .blog_item_img .blog_item_date {
+      bottom: -20px;
+      left: 40px;
+      padding: 13px 30px;
+    }
+  }
+
+
+  .blog_details {
+      width: 100%;
+    padding: 30px 0 20px 10px;
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+  }
+
+  .blog_area{
+    color: #666666 !important;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }

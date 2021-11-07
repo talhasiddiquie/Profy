@@ -13,6 +13,7 @@ import Footer from "./Components/Footer";
 import Services from "./Pages/Home/Services";
 import About from "./Pages/Home/About";
 import CaseStudyInnerPage from "./Pages/Home/CaseStudyInnerPage/CaseStudyInnerPage";
+import Blog from "./Pages/Home/Blog/Blog";
 function App() {
   return (
     <Router>
@@ -29,6 +30,10 @@ function App() {
 
         <Route path="/about" exact>
           <About/>
+        </Route>
+
+        <Route path="/blog" exact>
+         <Blog/>
         </Route>
 
         <Route path="/casestudy" exact>

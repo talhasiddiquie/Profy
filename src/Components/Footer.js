@@ -33,8 +33,9 @@ export default function Footer() {
                <p>600/D, Green road, NewYork</p>
               </Box>
               <div >
-              <FaFacebookF className="footerIcons"  />
-                    <FaTwitter  className="footerIcons"/>
+                 <FaFacebookF  className="footerIcons"/>
+                 
+                     <FaTwitter  className="footerIcons"/>
                     <FaInstagram  className="footerIcons"/>
               </div>
                
