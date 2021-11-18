@@ -9,7 +9,7 @@ import { FaFacebookF ,FaTwitter,FaInstagram} from "react-icons/fa";
 import "./footer.css"
 export default function Footer() {
   return (
-    <footer>
+    <footer style={{background:"#2b2b2b"}}>
       <Box 
         px={{ xs: 3, sm: 10 }}
         py={{ xs: 5, sm: 10 }}

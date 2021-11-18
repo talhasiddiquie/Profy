@@ -1,7 +1,10 @@
 import React from "react";
 import { makeStyles,Button } from "@material-ui/core";
 import Carousel from 'react-elastic-carousel';
-import sliderImg from "../../Assets/slider1.png"
+import sliderImgOne from "../../Assets/case1.jpeg"
+import sliderImgTwo from "../../Assets/case2.jpeg"
+import sliderImgThree from "../../Assets/case3.jpeg"
+import sliderImgFour from "../../Assets/case4.jpeg"
 import Card from "@material-ui/core/Card";
 
 import "./casestudy.css"
@@ -82,7 +85,7 @@ const CaseStudy = () => {
      >
         <Card className={classes.cardSet}>
           <div className={classes.imgDiv}>
-          <img  alt=""  src={sliderImg}/>
+          <img  alt=""  src={sliderImgOne}/>
            <div className={classes.parentDiv}>
              <h5 className={classes.spanDiv}>
              Finance Solution
@@ -96,7 +99,7 @@ const CaseStudy = () => {
 
         <Card className={classes.cardSet}>
           <div className={classes.imgDiv}>
-          <img  alt=""  src={sliderImg}/>
+          <img  alt=""  src={sliderImgTwo}/>
            <div className={classes.parentDiv}>
              <h5 className={classes.spanDiv}>
              Finance Solution
@@ -110,7 +113,7 @@ const CaseStudy = () => {
 
         <Card className={classes.cardSet}>
           <div className={classes.imgDiv}>
-          <img  alt=""  src={sliderImg}/>
+          <img  alt=""  src={sliderImgThree}/>
            <div className={classes.parentDiv}>
              <h5 className={classes.spanDiv}>
              Finance Solution
@@ -124,7 +127,7 @@ const CaseStudy = () => {
 
         <Card className={classes.cardSet}>
           <div className={classes.imgDiv}>
-          <img  alt=""  src={sliderImg}/>
+          <img  alt=""  src={sliderImgFour}/>
            <div className={classes.parentDiv}>
              <h5 className={classes.spanDiv}>
              Finance Solution
@@ -137,19 +140,7 @@ const CaseStudy = () => {
         </Card>
 
 
-        <Card className={classes.cardSet}>
-          <div className={classes.imgDiv}>
-          <img  alt=""  src={sliderImg}/>
-           <div className={classes.parentDiv}>
-             <h5 className={classes.spanDiv}>
-             Finance Solution
-             </h5>
-             <h3>
-             <a className={classes.headingSet} href="!#">Consumer Products Consulting</a>
-             </h3>
-             </div>
-          </div>
-        </Card>
+       
 
         
         

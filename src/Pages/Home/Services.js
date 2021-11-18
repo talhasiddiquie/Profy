@@ -37,7 +37,7 @@ const Services = () => {
         </div>
       </div>
           <Whatwedo/>
-          <GetFreeQuote/>
+         
           <InformationCallUs/>
 
       

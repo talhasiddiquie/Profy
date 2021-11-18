@@ -41,7 +41,7 @@ const About = () => {
             <HappiestClient/>
             <Whatwedo/>
             <ExperTeam/>
-            <GetFreeQuote/>
+            
             <InformationCallUs/>
         
       </div>

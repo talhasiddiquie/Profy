@@ -69,7 +69,7 @@ setCardMargin:{
 },
 imgRadius: {
     width:"100%",
-    borderRadius:"25px",
+    // borderRadius:"25px",
 },
 imgWidth:{
     width:"100%"
@@ -109,7 +109,7 @@ const ExperTeam  = () => {
                     <h3>Milani Mou</h3>
                     <p>Photographer</p>
                     <div className={classes.setIcons}>
-                    <FaFacebookF className={classes.setIconMargin} />
+                    <FaFacebookF  className={classes.setIconMargin} />
                     <FaTwitter className={classes.setIconMargin}/>
                     <FaInstagram />
                         </div>
@@ -132,6 +132,20 @@ const ExperTeam  = () => {
                 </div>
             </Card>
 
+            <Card className={classes.setCardMargin}  >
+                <div className={classes.imgRadius} >
+                    <img className={classes.imgWidth} alt="" src={img3} />
+                </div>
+                <div className={classes.setTeamDiv} >
+                    <h3>Milani Mou</h3>
+                    <p>Photographer</p>
+                    <div className={classes.setIcons}>
+                    <FaFacebookF className={classes.setIconMargin} />
+                    <FaTwitter className={classes.setIconMargin}/>
+                    <FaInstagram />
+                        </div>
+                </div>
+            </Card>
 
            
 
