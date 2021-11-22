@@ -1,159 +1,211 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 import Card from "@material-ui/core/Card";
-import img1 from "../../Assets/team/1.png"
-import img2 from "../../Assets/team/2.png"
-import img3 from "../../Assets/team/3.png"
-import { FaFacebookF ,FaTwitter,FaInstagram} from "react-icons/fa";
+import img1 from "../../Assets/team/1.png";
+import img2 from "../../Assets/team/2.png";
+import img3 from "../../Assets/team/3.png";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
-    mainDiv:{
-        width:"100%",
-      display:"flex",
-      justifyContent:"center",
-      marginTop:"100px",
-      flexDirection:"column",
-      alignItems:"center"
+  mainDiv: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    marginTop: "100px",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  h1Div: {
+    marginBottom: "40px",
+  },
+  h1Set: {
+    fontSize: "46px",
+    fontWeight: "300",
+    lineHeight: "76px",
+    color: "#001D38",
+    position: "relative",
+    zIndex: "0",
+    paddingBottom: "10px",
+  },
+  cardDiv: {
+    marginBottom: "50px",
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    [theme.breakpoints.down("md")]: {
+      flexDirection: "column",
+      width: "93%",
     },
-    h1Div:{
-        marginBottom:"40px"
- },
- h1Set:{
-     fontSize:"46px",
-     fontWeight:"300",
-     lineHeight:"76px",
-     color:"#001D38",
-     position:"relative",
-     zIndex:"0",
-     paddingBottom:"10px"
-
- },
- cardDiv:{
-     marginBottom:"50px",
-    width:"100%",
-    display:"flex",
-    justifyContent:"center",
-    alignItems:"center",
+  },
+  setTeamDiv: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "column",
+    padding: "10px",
+  },
+  setIcons: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    fontSize: "20px",
+  },
+  setIconMargin: {
+    marginRight: "5px",
+  },
+  setCardMargin: {
+    marginRight: "20px",
+    borderTopRightRadius: "15px",
+    borderTopLeftRadius: "15px",
     [theme.breakpoints.down("md")]: {
-        flexDirection:"column",
-        width:"93%"
-        
-      },
- },
- setTeamDiv:{
-     width:"100%",
-     display:"flex",
-     justifyContent:"center",
-     alignItems:"center",flexDirection:"column",
-     padding:"10px"
- }
-, setIcons:{
-    width:"100%",
-    display:"flex",
-     justifyContent:"center",
-     alignItems:"center",
-     fontSize:"20px"
-},setIconMargin : {
-                marginRight:"5px"
-},
-setCardMargin:{
-    marginRight:"20px",
-    borderTopRightRadius:"15px",
-    borderTopLeftRadius:"15px",
-    [theme.breakpoints.down("md")]: {
-        marginTop:"20px",
-        marginRight:"0px",
-       
-      },
-    
-},
-imgRadius: {
-    width:"100%",
+      marginTop: "20px",
+      marginRight: "0px",
+    },
+  },
+  imgRadius: {
+    width: "100%",
     // borderRadius:"25px",
-},
-imgWidth:{
-    width:"100%"
-}
-     
-  }));
+  },
+  imgWidth: {
+    width: "100%",
+  },
+}));
 
-const ExperTeam  = () => {
-    const classes = useStyles();
-    return (
-        <div  className={classes.mainDiv}  >
-            <div className={classes.h1Div}>
-            <h1 className={classes.h1Set} >Expert Team</h1>
-        </div>
+const ExperTeam = () => {
+  const classes = useStyles();
+  return (
+    <div className={classes.mainDiv}>
+      <div className={classes.h1Div}>
+        <h1 className={classes.h1Set}>Expert Team</h1>
+      </div>
 
-        <div className={classes.cardDiv}>
-            <Card className={classes.setCardMargin}  >
-                <div className={classes.imgRadius} >
-                    <img className={classes.imgWidth} alt="" src={img1} />
-                </div>
-                <div className={classes.setTeamDiv} >
-                    <h3>Milani Mou</h3>
-                    <p>Photographer</p>
-                    <div className={classes.setIcons}>
-                    <FaFacebookF className={classes.setIconMargin} />
-                    <FaTwitter className={classes.setIconMargin}/>
-                    <FaInstagram />
-                        </div>
-                </div>
-            </Card>
+      <div className={classes.cardDiv}>
+        <Card className={classes.setCardMargin}>
+          <div className={classes.imgRadius}>
+            <img className={classes.imgWidth} alt="" src={img1} />
+          </div>
+          <div className={classes.setTeamDiv}>
+            <h3>Milani Mou</h3>
+            <p>Photographer</p>
+            <div className={classes.setIcons}>
+              <FaFacebookF
+                onClick={() => {
+                  window.open("https://www.facebook.com");
+                }}
+                className={classes.setIconMargin}
+              />
 
-            <Card className={classes.setCardMargin}  >
-                <div className={classes.imgRadius} >
-                    <img  className={classes.imgWidth} alt="" src={img2} />
-                </div>
-                <div className={classes.setTeamDiv} >
-                    <h3>Milani Mou</h3>
-                    <p>Photographer</p>
-                    <div className={classes.setIcons}>
-                    <FaFacebookF  className={classes.setIconMargin} />
-                    <FaTwitter className={classes.setIconMargin}/>
-                    <FaInstagram />
-                        </div>
-                </div>
-            </Card>
+              <FaTwitter
+                onClick={() => {
+                  window.open("https://twitter.com");
+                }}
+                className={classes.setIconMargin}
+              />
+              <FaInstagram
+                onClick={() => {
+                  window.open("https://www.instagram.com/");
+                }}
+              />
+            </div>
+          </div>
+        </Card>
 
+        <Card className={classes.setCardMargin}>
+          <div className={classes.imgRadius}>
+            <img className={classes.imgWidth} alt="" src={img2} />
+          </div>
+          <div className={classes.setTeamDiv}>
+            <h3>Milani Mou</h3>
+            <p>Photographer</p>
+            <div className={classes.setIcons}>
+              <FaFacebookF
+                onClick={() => {
+                  window.open("https://www.facebook.com");
+                }}
+                className={classes.setIconMargin}
+              />
 
-            <Card className={classes.setCardMargin}  >
-                <div className={classes.imgRadius} >
-                    <img className={classes.imgWidth} alt="" src={img3} />
-                </div>
-                <div className={classes.setTeamDiv} >
-                    <h3>Milani Mou</h3>
-                    <p>Photographer</p>
-                    <div className={classes.setIcons}>
-                    <FaFacebookF className={classes.setIconMargin} />
-                    <FaTwitter className={classes.setIconMargin}/>
-                    <FaInstagram />
-                        </div>
-                </div>
-            </Card>
+              <FaTwitter
+                onClick={() => {
+                  window.open("https://twitter.com");
+                }}
+                className={classes.setIconMargin}
+              />
+              <FaInstagram
+                onClick={() => {
+                  window.open("https://www.instagram.com/");
+                }}
+              />
+            </div>
+          </div>
+        </Card>
 
-            <Card className={classes.setCardMargin}  >
-                <div className={classes.imgRadius} >
-                    <img className={classes.imgWidth} alt="" src={img3} />
-                </div>
-                <div className={classes.setTeamDiv} >
-                    <h3>Milani Mou</h3>
-                    <p>Photographer</p>
-                    <div className={classes.setIcons}>
-                    <FaFacebookF className={classes.setIconMargin} />
-                    <FaTwitter className={classes.setIconMargin}/>
-                    <FaInstagram />
-                        </div>
-                </div>
-            </Card>
+        <Card className={classes.setCardMargin}>
+          <div className={classes.imgRadius}>
+            <img className={classes.imgWidth} alt="" src={img3} />
+          </div>
+          <div className={classes.setTeamDiv}>
+            <h3>Milani Mou</h3>
+            <p>Photographer</p>
+            <div className={classes.setIcons}>
+              <FaFacebookF
+                onClick={() => {
+                  window.open("https://www.facebook.com");
+                }}
+                className={classes.setIconMargin}
+              />
 
-           
+              <FaTwitter
+                onClick={() => {
+                  window.open("https://twitter.com");
+                }}
+                className={classes.setIconMargin}
+              />
+              <FaInstagram
+                onClick={() => {
+                  window.open("https://www.instagram.com/");
+                }}
+              />
+            </div>
+          </div>
+        </Card>
 
+        <Card className={classes.setCardMargin}>
+          <div className={classes.imgRadius}>
+            <img className={classes.imgWidth} alt="" src={img3} />
+          </div>
+          <div className={classes.setTeamDiv}>
+            <h3>Milani Mou</h3>
+            <p>Photographer</p>
+            <div className={classes.setIcons}>
+              <FaFacebookF
+                onClick={() => {
+                  window.open("https://www.facebook.com");
+                }}
+                className={classes.setIconMargin}
+              />
 
-         
-        </div>
-        </div>
-    )
-}
+              <FaTwitter
+                onClick={() => {
+                  window.open("https://twitter.com");
+                }}
+                className={classes.setIconMargin}
+              />
+              <FaInstagram
+                onClick={() => {
+                  window.open("https://www.instagram.com/");
+                }}
+              />
+            </div>
+          </div>
+        </Card>
+      </div>
+    </div>
+  );
+};
 
 export default ExperTeam;

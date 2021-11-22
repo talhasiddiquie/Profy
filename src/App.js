@@ -14,12 +14,23 @@ import Services from "./Pages/Home/Services";
 import About from "./Pages/Home/About";
 import CaseStudyInnerPage from "./Pages/Home/CaseStudyInnerPage/CaseStudyInnerPage";
 import Blog from "./Pages/Home/Blog/Blog";
+import Login from "./Pages/Home/Login";
+import { SnackbarProvider } from "notistack";
+
 function App() {
+
+    console.log(window.location.pathname)
   return (
+  
     <Router>
+    
+       <SnackbarProvider maxSnack={3}>
       <CssBaseline />
-    <Header/>
+      <Header/>
+     
+   
       <Switch>
+          
         <Route path="/" exact>
          <Home/>
         </Route>
@@ -41,11 +52,17 @@ function App() {
         </Route>
        
        
+        <Route path="/login" exact>
+         <Login/>
+        </Route>
 
         <Route path="" exact></Route>
         <Redirect to="/" />
       </Switch>
-    <Footer/>
+      <Footer/>
+      
+    
+    </SnackbarProvider>
     </Router>
   );
 }

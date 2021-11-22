@@ -16,14 +16,14 @@ const useStyles = makeStyles((theme) => ({
     display:"flex",justifyContent:"center",marginTop:"30px",flexDirection:"column",alignItems:"center"
   },
     sliderResponsive:{
-      width:"65%!important",
+      width:"70%!important",
       [theme.breakpoints.down("md")]: {
         width:"100%!important",
       },
       
     },
     cardSet:{
-        borderRadius:"10px",width:"350px",boxShadow:"0 3px 6px rgb(0 0 0 / 5%)",marginBottom:"60px",overflow:"hidden"
+        borderRadius:"10px",width:"95%",boxShadow:"0 3px 6px rgb(0 0 0 / 5%)",marginBottom:"60px",overflow:"hidden" ,gap:"10px"
       },
     imgDiv:{
       display:"flex",justifyContent:"center",flexDirection:"column",
@@ -66,7 +66,8 @@ const breakPoints = [
   { width: 300, itemsToShow: 1 },
   { width: 500, itemsToShow: 2, itemsToScroll: 2 },
   { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 3 }
+  { width: 1200, itemsToShow: 3 },
+  { width: 1400, itemsToShow: 3 }
 ];
 const CaseStudy = () => {
   const classes = useStyles();
@@ -81,7 +82,7 @@ const CaseStudy = () => {
             <h1 className={classes.h1Set} >Case Study</h1>
         </div>
 
-      <Carousel breakPoints={breakPoints} className={classes.sliderResponsive} enableAutoPlay={true} autoPlaySpeed={3000}   
+      <Carousel  breakPoints={breakPoints} className={classes.sliderResponsive} enableAutoPlay={true} autoPlaySpeed={3000}   
      >
         <Card className={classes.cardSet}>
           <div className={classes.imgDiv}>

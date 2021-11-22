@@ -99,11 +99,11 @@ const CaseStudyInnerPage = () => {
         </div>
         </div>
         
-        <div style={{display:"flex",justifyContent:"center",alignItems:"center",width:"100%",marginTop:"50px",}}>
+        <div style={{display:"flex",justifyContent:"center",alignItems:"center",width:"100%",marginTop:"50px",flexWrap:"wrap",gap:"10px"}}>
              {buttons &&
         buttons.map((type, index) => (
           <>
-            <button style={{background:"transparent", borderColor:"blue", borderRadius:"15px",width:"150px",marginRight:"5px"}}  key={index} value={type.value} onClick={handleCaseStudy}>
+            <button style={{background:"transparent", color:"#5DB2FF" ,border:"2px solid #5DB2FF", borderRadius:"15px",width:"150px",marginRight:"5px"}}  key={index} value={type.value} onClick={handleCaseStudy}>
               {type.name}
             </button>
           </>
