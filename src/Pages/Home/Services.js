@@ -3,14 +3,11 @@ import background from "../../Assets/bradcam.png";
 import Whatwedo from "./Whatwedo";
 import GetFreeQuote from "./GetFreeQuote";
 import InformationCallUs from "./InformationCallUs";
-
-
-
+import Wrapper from "../../Components/wrapper.comp";
 
 const Services = () => {
-  
   return (
-    <div>
+    <Wrapper>
       <div
         style={{
           backgroundImage: `url(${background})`,
@@ -19,7 +16,7 @@ const Services = () => {
           zIndex: "0",
           height: "32em",
           width: "100%",
-        //   marginTop: "105px",
+          //   marginTop: "105px",
         }}
       >
         <div
@@ -36,12 +33,10 @@ const Services = () => {
           <h1 style={{ fontSize: "60px" }}>Service</h1>
         </div>
       </div>
-          <Whatwedo/>
-         
-          <InformationCallUs/>
+      <Whatwedo />
 
-      
-    </div>
+      <InformationCallUs />
+    </Wrapper>
   );
 };
 

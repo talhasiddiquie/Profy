@@ -5,6 +5,7 @@ import background from "../../../Assets/bradcam.png";
 import Card from "@material-ui/core/Card";
 import "./casestudy.css";
 import { makeStyles} from "@material-ui/core";
+import Wrapper from "../../../Components/wrapper.comp";
 
 
 
@@ -72,7 +73,7 @@ const CaseStudyInnerPage = () => {
           : setFiltredCaseStudy(getCasestudy());
       }
     return (
-        <div>
+        <Wrapper>
         <div
         style={{
           backgroundImage: `url(${background})`,
@@ -143,7 +144,7 @@ const CaseStudyInnerPage = () => {
        
             
           
-          </div>
+          </Wrapper>
         
     )
 }

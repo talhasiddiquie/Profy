@@ -4,9 +4,10 @@ import Container from '@material-ui/core/Container';
 import background from "../../../Assets/bradcam.png";
 import { blogdata } from './Data';
 import "./blog.css"
+import Wrapper from '../../../Components/wrapper.comp';
 const Blog = () => {
     return (
-        <div>
+        <Wrapper>
                   <div
         style={{
           backgroundImage: `url(${background})`,
@@ -64,7 +65,7 @@ const Blog = () => {
 
             
                 </Container>
-        </div>
+        </Wrapper>
 
        
     )

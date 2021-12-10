@@ -1,5 +1,6 @@
 import React from 'react'
 import background from "../../Assets/bradcam.png";
+import Wrapper from '../../Components/wrapper.comp';
 import ExperTeam from './ExperTeam';
 import GetFreeQuote from './GetFreeQuote';
 import HappiestClient from './HappiestClient';
@@ -9,7 +10,7 @@ import WhyourConsulting from './WhyourConsulting';
 
 const About = () => {
     return (
-        <div>
+        <Wrapper>
         <div
           style={{
             backgroundImage: `url(${background})`,
@@ -44,7 +45,7 @@ const About = () => {
             
             <InformationCallUs/>
         
-      </div>
+      </Wrapper>
     )
 }
 
