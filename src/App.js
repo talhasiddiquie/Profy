@@ -16,6 +16,7 @@ import CaseStudyInnerPage from "./Pages/Home/CaseStudyInnerPage/CaseStudyInnerPa
 import Blog from "./Pages/Home/Blog/Blog";
 import Login from "./Pages/Home/Login";
 import { SnackbarProvider } from "notistack";
+import Signup from "./Pages/Home/Signup";
 
 function App() {
   console.log(window.location.pathname);
@@ -48,6 +49,10 @@ function App() {
 
           <Route path="/login" exact>
             <Login />
+          </Route>
+
+          <Route path="/signup" exact>
+           <Signup/>
           </Route>
 
           <Route path="" exact></Route>
