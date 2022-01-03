@@ -125,7 +125,8 @@ const Whatwedo = () => {
                 variant="h5"
                 component="h2"
               >
-                Marketing & SEO Agency
+               Gather Requirements for BI Solution
+
               </Typography>
               <Typography
                 style={{
@@ -138,7 +139,7 @@ const Whatwedo = () => {
                 color="textSecondary"
                 component="p"
               >
-                Esteem spirit temper too say adieus who direct esteem.
+               
               </Typography>
             </Card>
 
@@ -154,7 +155,7 @@ const Whatwedo = () => {
                 variant="h5"
                 component="h2"
               >
-                Startup Agency
+                Collect and Integrate data from data Sources
               </Typography>
               <Typography
                 style={{
@@ -167,7 +168,7 @@ const Whatwedo = () => {
                 color="textSecondary"
                 component="p"
               >
-                Esteem spirit temper too say adieus who direct esteem.
+             
               </Typography>
             </Card>
 
@@ -183,7 +184,7 @@ const Whatwedo = () => {
                 variant="h5"
                 component="h2"
               >
-                Corporate Business
+                Transform, Clean & Prepare Data
               </Typography>
               <Typography
                 style={{
@@ -196,7 +197,7 @@ const Whatwedo = () => {
                 color="textSecondary"
                 component="p"
               >
-                Esteem spirit temper too say adieus who direct esteem.
+               
               </Typography>
             </Card>
           </div>
@@ -214,7 +215,8 @@ const Whatwedo = () => {
                 variant="h5"
                 component="h2"
               >
-                Finance Solution
+                Explore data & Get Insights
+
               </Typography>
               <Typography
                 style={{
@@ -227,7 +229,7 @@ const Whatwedo = () => {
                 color="textSecondary"
                 component="p"
               >
-                Esteem spirit temper too say adieus who direct esteem.
+               
               </Typography>
             </Card>
 
@@ -243,7 +245,8 @@ const Whatwedo = () => {
                 variant="h5"
                 component="h2"
               >
-                Food & Restaurant
+                Data Visualization & Dashboards
+
               </Typography>
               <Typography
                 style={{
@@ -256,7 +259,7 @@ const Whatwedo = () => {
                 color="textSecondary"
                 component="p"
               >
-                Esteem spirit temper too say adieus who direct esteem.
+              
               </Typography>
             </Card>
 
@@ -272,7 +275,8 @@ const Whatwedo = () => {
                 variant="h5"
                 component="h2"
               >
-                Travel Agency
+                Future Sales Prediction
+
               </Typography>
               <Typography
                 style={{
@@ -285,7 +289,7 @@ const Whatwedo = () => {
                 color="textSecondary"
                 component="p"
               >
-                Esteem spirit temper too say adieus who direct esteem.
+              
               </Typography>
             </Card>
           </div>

@@ -15,13 +15,13 @@ const HeroSlider = () => {
           />
           <Carousel.Caption>
               <div className="col-xl-12">
-              <h3>Big Opportunity <br/> for your Business </h3>
+              <h3>Innovation Solution to<br/> Move your Business foward</h3>
                     <button id="btn-slider"
             className='btn btn-danger'
            
             
             >
-           Our Services
+          Services
           </button>
                   </div>
          
@@ -39,13 +39,13 @@ const HeroSlider = () => {
       
           <Carousel.Caption>
           <div className="col-xl-12">
-              <h3>Big Opportunity <br/> for your Business </h3>
+              <h3>Confused about making new decisions? <br/> We have a solution!! </h3>
                     <button id="btn-slider"
             className='btn btn-danger'
            
             
             >
-           Our Services
+           Contact Us
           </button>
                   </div>
          
