@@ -9,7 +9,7 @@ import HappiestClient from './HappiestClient';
 import InformationCallUs from './InformationCallUs';
 import Whatwedo from './Whatwedo';
 import WhyourConsulting from './WhyourConsulting';
-
+import "./about.css"
 const About = () => {
     return (
         <Wrapper>
@@ -25,21 +25,13 @@ const About = () => {
             
           }}
         >
-          <div
+          <div id="aboutMainDiv"
             style={{
-              color: "white",
-              display: "flex",
-              flexDirection:"column",
-              justifyContent:"center",
-              alignItems: "center",
-              width: "50%",
-              height: "100%",
-              marginLeft: "auto",
-              marginRight: "auto",
+              
             }}
           >
-            <h1 style={{ fontSize: "30px" ,marginTop:"20px"}}>We develop Machine Learning, Big Data, and Business Intelligence solutions for enterprises and high-tech companies around the world.</h1>
-            <button style={{ border:"2px solid rgb(1, 129, 245)", fontSize:"16px", color:"white",marginTop:"20px",paddingLeft:"55px",paddingRight:"55px",width:"30%",background:'linear-gradient(to bottom, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%)',borderRadius:"20px",height:"35px",}}>Let's become partners!</button>
+            <h1 id="aboutSetHeading" >We develop Machine Learning, Big Data, and Business Intelligence solutions for enterprises and high-tech companies around the world.</h1>
+            <button id="aboutBtn">Let's become partners!</button>
           </div>
         </div>
             
