@@ -37,7 +37,7 @@ const Blog = () => {
                 <div style={{display:"flex",justifyContent:"center",alignItems:"center",flexWrap:"wrap",marginTop:"50px"}}>
                 
                 {blogdata.map(user => (
-                       <div style={{marginBottom:"50px"}}>
+                       <div style={{marginBottom:"50px",width:"60%"}}>
                            <div className="blog_item_img" style={{position:"relative"}}>
                                <img style={{width:"100%"}} alt=""  src={user.imgUrl} />
                             <a style={{textDecoration:"none"}} className="blog_item_date" href="!#" >

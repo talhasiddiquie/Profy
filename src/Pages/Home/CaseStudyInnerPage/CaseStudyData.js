@@ -9,61 +9,70 @@ export const casestudy = [
 
     {
         id:1,
-        name:"Finance Solution",
-        type:"finance",
-        desc:"Consumer Products Consulting",
+        name:"The new system was 100 times faster compared to the old one and could process 1,000 different data formats.",
+        type:"bigdata",
+        desc:"Big Data Implementation for Channel in 10+ Countries",
         imgUrl:`${sliderimg1}`
     },
 
     {
         id:2,
-        name:"Startup Solution",
-        type:"startup",
-        desc:"Startup Products Consulting",
+        name:"The company's star product hybrid mobile apps now power T-Mobile,Orange and other telecom industry leaders.",
+        type:"development",
+        desc:"Development Web-based Management System",
         imgUrl:`${sliderImgOne}`
     },
     {
         id:3,
-        name:"Business Solution",
+        name:"An ambitious start-up commissioned ScienceSoft to create an instant messaging and VoIP app which now boasts over 1.17 billion active users across the globe.",
         type:"business",
-        desc:"Business Products Consulting",
+        desc:"Design and Development",
         imgUrl:`${sliderImgTwo}`
     },
     {
         id:4,
-        name:"Travel Solution",
-        type:"travel",
-        desc:"Travel Consultant",
+        name:"Solution consists of Java application for management and reporting along with an analytical data warehouse.",
+        type:"business",
+        desc:"BI Implementation for 200 Healthcare Centers",
         imgUrl:`${sliderImgOne}`
 
     },
     {
         id:5,
-        name:"Finance Solution",
-        type:"finance",
-        desc:"Consumer Products Consulting",
+        name:"Built  Azure-based consistently delivered new features & updates to ensure a superior user experience for SaaS users.",
+        type:"business",
+        desc:"Development of an Azure-Based Software Product ",
         imgUrl:`${sliderimg1}`
     },
 
     {
         id:6,
-        name:"Startup Solution",
-        type:"startup",
-        desc:"Startup Products Consulting",
+        name:"The solution enabled permanent collection and analysis of events coming from log sources of more than 70 state agencies.",
+        type:"bigdata",
+        desc:"IBM Security QRadar SIEM Implementation",
         imgUrl:`${sliderImgFour}`
     },
     {
         id:7,
-        name:"Business Solution",
-        type:"business",
-        desc:"Business Products Consulting",
+        name:"The product received several awards as an innovative technology in image processing and a ground-breaking mobile app.",
+        type:"bigdata",
+        desc:"Mobile App for a Global Leader in Image Processing",
         imgUrl:`${sliderImgThree}`
     },
     {
         id:8,
-        name:"Travel Solution",
-        type:"travel",
-        desc:"Travel Consultant",
+        name:"A Mac version of the all-in-one web browser specifically suitable for music connoisseurs, video lovers and people with an active online presence",
+        type:"development",
+        desc:"Development of Alternative Web Browser Software for Mac",
+        imgUrl:`${sliderImgFour}`
+
+    },
+
+    {
+        id:9,
+        name:"The software allows engineering, marketing and production personnel to find more cost-effective, competitive and higher-quality system",
+        type:"development",
+        desc:"Complex Web Product for Semantic Analysis",
         imgUrl:`${sliderImgFour}`
 
     }
@@ -77,19 +86,16 @@ export const buttons = [
       value: "all"
     },
     {
-      name: "Finance",
-      value: "finance"
+      name: "BigData",
+      value: "bigdata"
     },
     {
-      name: "Startup",
-      value: "startup"
+      name: "Development",
+      value: "development"
     },
     {
       name: "Business Solution",
       value: "business"
     },
-    {
-        name: "Travel Solution",
-        value: "travel"
-      }
+   
   ];
