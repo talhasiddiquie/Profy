@@ -41,7 +41,7 @@ const Blog = () => {
                            <div className="blog_item_img" style={{position:"relative"}}>
                                <img style={{width:"100%"}} alt=""  src={user.imgUrl} />
                             <a style={{textDecoration:"none"}} className="blog_item_date" href="!#" >
-                                <h3>{user.dateh1}</h3>
+                                <h3 style={{textAlign:"center"}}>{user.dateh1}</h3>
                                 <h3>{user.dateh2}</h3>
                             </a>
                            </div>

@@ -44,7 +44,7 @@ const GetToKnowUsBetter = () => {
                    
                 </div>
                 <div style={{width:"100%",display:"flex",justifyContent:"center",alignItems:"center",marginTop:"100px"}}>
-                <button style={{ border:"2px solid rgb(1, 129, 245)", fontSize:"18px", color:"white",marginTop:"20px",paddingLeft:"55px",paddingRight:"55px",width:"400px",background:'linear-gradient(to bottom, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%)',borderRadius:"20px",height:"45px", fontWeight:"600"}}>Learn more about our services</button>
+                <button id="GEtToKnowBtn" style={{ border:"2px solid rgb(1, 129, 245)", fontSize:"18px", color:"white",marginTop:"20px",paddingLeft:"55px",paddingRight:"55px",width:"400px",background:'linear-gradient(to bottom, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%)',borderRadius:"20px",height:"45px", fontWeight:"600"}}>Learn more about our services</button>
                 </div>
             </div>
         </div>

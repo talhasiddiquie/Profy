@@ -175,9 +175,9 @@ import logo1 from "../Assets/logo1.png"
               className={drawerContainer}
             >
               {getDrawerChoices()}
-              <div style={{ display: "flex" }}>
+              <div style={{ display: "flex",marginTop :"12px"}}>
                 <div display="flex">
-                  <RouterLink to="/Login">
+                  <RouterLink style={{textDecoration:"none"}} to="/Login">
                     <Button
                       className={btncolor}
                       variant="outlined"
@@ -214,8 +214,8 @@ import logo1 from "../Assets/logo1.png"
             {...{
               component: RouterLink,
               to: href,
-              color: "#FFF",
-              style: { textDecoration: "none" },
+             
+              style: { textDecoration: "none",color:"white" },
               key: label,
             }}
           >

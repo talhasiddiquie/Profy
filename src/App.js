@@ -17,11 +17,13 @@ import Blog from "./Pages/Home/Blog/Blog";
 import Login from "./Pages/Home/Login";
 import { SnackbarProvider } from "notistack";
 import Signup from "./Pages/Home/Signup";
+import ScrollTopTop from "../src/Components/ScrollToTop"
 
 function App() {
   console.log(window.location.pathname);
   return (
     <Router>
+      <ScrollTopTop/>
       <SnackbarProvider maxSnack={3}>
         <CssBaseline />
         {/* <Header/> */}

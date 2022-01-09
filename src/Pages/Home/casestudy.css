@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) and (min-width: 280px)  {
     .cNNJIt {
         display: none!important;   
     }
@@ -7,10 +7,11 @@
 
 
  
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 900px) and (min-width: 280px)  {
     .jRFJkP {
         display: none!important;   
     }
+ 
   }
 
 
@@ -23,3 +24,12 @@
   }
 
   
+
+
+
+
+@media only screen and (max-width: 2560px) and (min-width: 1440px)  {
+  #settoCard {
+      height: 500px!important;
+}
+}

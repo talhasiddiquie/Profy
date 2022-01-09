@@ -2,4 +2,6 @@
     position: absolute !important;
   }
   
-  
+.MuiDrawer-paperAnchorRight {
+  background: #0c1f3c !important;;
+}

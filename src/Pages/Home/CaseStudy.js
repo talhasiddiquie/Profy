@@ -1,10 +1,11 @@
 import React from "react";
 import { makeStyles,Button } from "@material-ui/core";
 import Carousel from 'react-elastic-carousel';
-import sliderImgOne from "../../Assets/case1.jpeg"
-import sliderImgTwo from "../../Assets/case2.jpeg"
-import sliderImgThree from "../../Assets/case3.jpeg"
+import sliderImgOne from "../../Assets/bigdata.jpg"
+import sliderImgTwo from "../../Assets/development.png"
+import sliderImgThree from "../../Assets/bi.jpg"
 import sliderImgFour from "../../Assets/case4.jpeg"
+import { Link } from "react-router-dom";
 import Card from "@material-ui/core/Card";
 
 import "./casestudy.css"
@@ -23,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
       
     },
     cardSet:{
-        borderRadius:"10px",width:"95%",boxShadow:"0 3px 6px rgb(0 0 0 / 5%)",marginBottom:"60px",overflow:"hidden" ,gap:"10px"
+        borderRadius:"10px",width:"95%",boxShadow:"0 3px 6px rgb(0 0 0 / 5%)",marginBottom:"60px",overflow:"hidden" ,gap:"10px",height:"460px"
       },
     imgDiv:{
       display:"flex",justifyContent:"center",flexDirection:"column",
@@ -84,49 +85,49 @@ const CaseStudy = () => {
 
       <Carousel  breakPoints={breakPoints} className={classes.sliderResponsive} enableAutoPlay={true} autoPlaySpeed={3000}   
      >
-        <Card className={classes.cardSet}>
-          <div className={classes.imgDiv}>
+        <Card id="settoCard" className={classes.cardSet}>
+          <div  className={classes.imgDiv}>
           <img  alt=""  src={sliderImgOne}/>
            <div className={classes.parentDiv}>
              <h5 className={classes.spanDiv}>
-             Finance Solution
+             The new system was 100 times faster compared to the old one and could process 1,000 different data formats.
              </h5>
              <h3>
-             <a className={classes.headingSet} href="!#">Consumer Products Consulting</a>
+             <a className={classes.headingSet} href="!#">Big Data Implementation for Channel in 10+ Countries</a>
              </h3>
              </div>
           </div>
         </Card>
 
-        <Card className={classes.cardSet}>
+        <Card id="settoCard" className={classes.cardSet}>
           <div className={classes.imgDiv}>
           <img  alt=""  src={sliderImgTwo}/>
            <div className={classes.parentDiv}>
              <h5 className={classes.spanDiv}>
-             Finance Solution
+             The company's star product hybrid mobile apps now power T-Mobile,Orange and other telecom industry leaders.
              </h5>
              <h3>
-             <a className={classes.headingSet} href="!#">Consumer Products Consulting</a>
+             <a className={classes.headingSet} href="!#">Development Web-based Management System</a>
              </h3>
              </div>
           </div>
         </Card>
 
-        <Card className={classes.cardSet}>
+        <Card id="settoCard" className={classes.cardSet}>
           <div className={classes.imgDiv}>
           <img  alt=""  src={sliderImgThree}/>
            <div className={classes.parentDiv}>
              <h5 className={classes.spanDiv}>
-             Finance Solution
+             Solution consists of  application for management and reporting along with an analytical data warehouse.
              </h5>
              <h3>
-             <a className={classes.headingSet} href="!#">Consumer Products Consulting</a>
+             <a className={classes.headingSet} href="!#">BI Implementation for Healthcare Centers</a>
              </h3>
              </div>
           </div>
         </Card>
 
-        <Card className={classes.cardSet}>
+        {/* <Card className={classes.cardSet}>
           <div className={classes.imgDiv}>
           <img  alt=""  src={sliderImgFour}/>
            <div className={classes.parentDiv}>
@@ -138,7 +139,7 @@ const CaseStudy = () => {
              </h3>
              </div>
           </div>
-        </Card>
+        </Card> */}
 
 
        
@@ -148,9 +149,13 @@ const CaseStudy = () => {
       </Carousel>
 
       <div >
+
+      <Link style={{textDecoration:"none"}}  to="/casestudy" >
       <Button variant="outlined" className={classes.btnSet}>
-             About Us
+            More
            </Button>
+                </Link>
+      
       </div>
 
      
