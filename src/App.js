@@ -18,6 +18,7 @@ import Login from "./Pages/Home/Login";
 import { SnackbarProvider } from "notistack";
 import Signup from "./Pages/Home/Signup";
 import ScrollTopTop from "../src/Components/ScrollToTop"
+import ContactForm from "./Pages/Home/ContactForm";
 
 function App() {
   console.log(window.location.pathname);
@@ -47,6 +48,10 @@ function App() {
 
           <Route path="/casestudy" exact>
             <CaseStudyInnerPage />
+          </Route>
+
+          <Route path="/contactform" exact>
+            <ContactForm/>
           </Route>
 
           <Route path="/login" exact>

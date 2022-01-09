@@ -3,7 +3,7 @@ import background from "../../Assets/bradcam.png";
 import Wrapper from '../../Components/wrapper.comp';
 import { ClientWhoTrustedUs } from './ClientWhoTrustedUs';
 import ExperTeam from './ExperTeam';
-import GetFreeQuote from './GetFreeQuote';
+import GetFreeQuote from './ContactForm';
 import GetToKnowUsBetter from './GetToKnowUsBetter';
 import HappiestClient from './HappiestClient';
 import InformationCallUs from './InformationCallUs';

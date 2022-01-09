@@ -6,7 +6,7 @@ import Button from "@material-ui/core/Button";
 // import logo from "../Assets/logo.png";
 import { auth } from "../../Firebase";
 import { Redirect } from "react-router-dom";
-import logo from "../../Assets/logo1.png"
+import logo from "../../Assets/grey-logo.jpg"
 import { useSnackbar } from "notistack";
 import "../Home/Styles/login.css"
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
@@ -63,7 +63,7 @@ const Signup = () => {
   .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
-    enqueueSnackbar(errorMessage, { variant: "error" });
+    enqueueSnackbar(errorMessage, { variant: 'error' });
     // ..
   });
     // auth
@@ -85,7 +85,7 @@ const Signup = () => {
   return (
     <div
       style={{
-        background: "#69C9EF",
+        background: "#0c1f3c",
         height: "100vh",
         display: "grid",
         placeItems: "center",
@@ -125,7 +125,7 @@ const Signup = () => {
             className={classes.loginbtn}
             variant="contained"
             style={{
-              backgroundColor: "#69c9ef",
+              backgroundColor: "#0c1f3c",
               color: "#fff",
             }}
             onClick={handleLogin}
@@ -135,9 +135,9 @@ const Signup = () => {
 
           <div style={{marginTop:"20px"}}>
                     <p>
-                      Have an account? 
+                      Have an account?  
                       <Link  to="/login">
-                            Login here.
+                             Login here.
                       </Link>
                     </p>
                   </div>

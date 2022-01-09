@@ -6,7 +6,7 @@ import Button from "@material-ui/core/Button";
 // import logo from "../Assets/logo.png";
 import { auth } from "../../Firebase";
 import { Redirect } from "react-router-dom";
-import logo from "../../Assets/logo1.png"
+import logo from "../../Assets/grey-logo.jpg"
 import { useSnackbar } from "notistack";
 import "../Home/Styles/login.css"
 import { Link } from 'react-router-dom'
@@ -49,6 +49,7 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [flag, setFlag] = useState(false);
+ 
   const { enqueueSnackbar} = useSnackbar();
   const handleLogin = () => {
     auth
@@ -70,13 +71,13 @@ const Login = () => {
   return (
     <div
       style={{
-        background: "#69C9EF",
+        background: "#0c1f3c",
         height: "100vh",
         display: "grid",
         placeItems: "center",
       }}
     >
-      {flag ? <Redirect push to="/" /> : null}
+      {flag ? <Redirect push to="/contactform" /> : null}
       <Paper id="mainDiv" className={classes.paperSet} elevation={3}>
         <form className={classes.formSet} noValidate autoComplete="off">
           {/* <img style={{ marginBottom: "30px" }} src={logo} alt="Logo" /> */}
@@ -109,7 +110,8 @@ const Login = () => {
             className={classes.loginbtn}
             variant="contained"
             style={{
-              backgroundColor: "#69c9ef",
+              backgroundColor: "#0c1f3c",
+              
               color: "#fff",
             }}
             onClick={handleLogin}
