@@ -83,7 +83,7 @@ const CaseStudy = () => {
             <h1 className={classes.h1Set} >Case Study</h1>
         </div>
 
-      <Carousel  breakPoints={breakPoints} className={classes.sliderResponsive} enableAutoPlay={true} autoPlaySpeed={3000}   
+      <Carousel  breakPoints={breakPoints} className={classes.sliderResponsive}  enableAutoPlay={true} autoPlaySpeed={3000}   
      >
         <Card id="settoCard" className={classes.cardSet}>
           <div  className={classes.imgDiv}>
