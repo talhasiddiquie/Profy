@@ -36,7 +36,8 @@ padding:10px;
 .footerItems {
     color: #919191;
     font-size: 15px;
-    line-height: 32px
+    line-height: 32px;
+    text-decoration: none;
 }
 
 .MuiOutlinedInput-adornedEnd{

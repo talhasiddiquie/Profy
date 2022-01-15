@@ -1,7 +1,7 @@
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
-import Link from '@material-ui/core/Link';
+import { Link } from 'react-router-dom'
 import logo1 from "../Assets/logo1.png"
 import { FaFacebookF ,FaTwitter,FaInstagram} from "react-icons/fa";
 
@@ -24,13 +24,13 @@ export default function Footer() {
                 <img  alt="" src={logo1}/>
               </Box>
               <Box>
-               <p>conbusi@support.com</p>
+               <p>info@ssuet.edu.pk</p>
               </Box>
               <Box>
-               <p>+10 873 672 6782</p>
+               <p>(021)34988000</p>
               </Box>
               <Box>
-               <p>600/D, Green road, NewYork</p>
+               <p>ST-16 University Rd, Block 5 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh</p>
               </Box>
               <div >
                  <FaFacebookF  className="footerIcons"/>
@@ -43,57 +43,48 @@ export default function Footer() {
               
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Box className="footerTitle" >Services</Box>
-              <Box>
-                <Link className="footerItems"  href="/" color="inherit">
-                Marketing & SEO
+            <Box className="footerTitle" >Services</Box>
+            <Box>
+                <Link className="footerItems"  to="/" color="inherit">
+                Home
                 </Link>
               </Box>
               <Box>
-                <Link className="footerItems" href="/" color="inherit">
-                Startup
+                <Link className="footerItems"  to="/login" color="inherit">
+                Login
                 </Link>
               </Box>
               <Box>
-                <Link className="footerItems" href="/" color="inherit">
-                Finance solution
+                <Link className="footerItems" to="/signup" color="inherit">
+                Signup
                 </Link>
               </Box>
+             
 
-              <Box>
-                <Link className="footerItems" href="/" color="inherit">
-                Food
-                </Link>
-              </Box>
-              <Box>
-                <Link className="footerItems" href="/" color="inherit">
-                Travel
-                </Link>
-              </Box>
-
+              
               
             </Grid>
             <Grid item xs={12} sm={4}>
               <Box className="footerTitle" >Useful Links</Box>
               <Box>
-                <Link className="footerItems"  href="/" color="inherit">
+                <Link className="footerItems"  to="/about" color="inherit">
                 About
                 </Link>
               </Box>
               <Box>
-                <Link className="footerItems" href="/" color="inherit">
-                Blog
+                <Link className="footerItems" to="/services" color="inherit">
+                Services
                 </Link>
               </Box>
               <Box>
-                <Link className="footerItems" href="/" color="inherit">
-                Contact
+                <Link className="footerItems" to="/casestudy" color="inherit">
+                CaseStudy
                 </Link>
               </Box>
 
               <Box>
-                <Link className="footerItems" href="/" color="inherit">
-                Appointment
+                <Link className="footerItems" to="/blog" color="inherit">
+               Blog
                 </Link>
               </Box>
               

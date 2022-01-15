@@ -163,7 +163,7 @@ const ExperTeam = () => {
             <img className={classes.imgWidth} alt="" src={img3} />
           </div>
           <div className={classes.setTeamDiv}>
-            <h3>Moazamma Batool</h3>
+            <h3>Moazzama Batool</h3>
             {/* <p>Photographer</p> */}
             <div className={classes.setIcons}>
               <FaFacebookF
