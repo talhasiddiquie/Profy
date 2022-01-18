@@ -179,7 +179,8 @@ const ExperTeam = () => {
                onMouseOver={({target})=>target.style.color='blue'} 
                onMouseOut={({target}) =>target.style.color="black"}
                 onClick={() => {
-                  window.open("https://www.instagram.com/moazammabatoool/");
+                  window.open("https://twitter.com/MoazammaB");
+                 
                 }}
                 className={classes.setIconMargin}
               />
@@ -187,7 +188,7 @@ const ExperTeam = () => {
                onMouseOver={({target})=>target.style.color='blue'} 
                onMouseOut={({target}) =>target.style.color="black"}
                 onClick={() => {
-                  window.open("https://twitter.com/MoazammaB");
+                  window.open("https://www.instagram.com/moazammabatoool");
                 }}
               />
             </div>
