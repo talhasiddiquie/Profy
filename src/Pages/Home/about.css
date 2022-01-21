@@ -29,6 +29,16 @@
     height:35px;
 }
 
+
+@media only screen and (max-width: 1840px) and (min-width:  1440px) {
+
+    #aboutBtn {
+        padding-left: 0;
+        padding-right: 0;
+        width: 40%;
+    }
+}
+
 @media only screen and (max-width: 1440px) and (min-width: 1024px) {
     #aboutMainDiv {
         text-align: center;

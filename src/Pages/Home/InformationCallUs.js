@@ -71,7 +71,7 @@ const InformationCallUs = () => {
           }}
           variant="contained"
         >
-          +10 673 763 6786
+          (021)34988000
         </Button>
       </div>
 

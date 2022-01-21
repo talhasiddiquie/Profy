@@ -121,6 +121,44 @@ const ExperTeam = () => {
         </Card>
 
         
+        <Card className={classes.setCardMargin}>
+          <div className={classes.imgRadius}>
+            <img className={classes.imgWidth} alt="" src={img3} />
+          </div>
+          <div className={classes.setTeamDiv}>
+            <h3>Moazzama Batool</h3>
+            {/* <p>Photographer</p> */}
+            <div className={classes.setIcons}>
+              <FaFacebookF
+               onMouseOver={({target})=>target.style.color='blue'} 
+               onMouseOut={({target}) =>target.style.color="black"}
+                onClick={() => {
+                  window.open("facebook.com/profile.php?id=100076451067682");
+                }}
+                className={classes.setIconMargin}
+              />
+
+              <FaTwitter
+               onMouseOver={({target})=>target.style.color='blue'} 
+               onMouseOut={({target}) =>target.style.color="black"}
+                onClick={() => {
+                  window.open("https://twitter.com/MoazammaB");
+                 
+                }}
+                className={classes.setIconMargin}
+              />
+              <FaInstagram
+               onMouseOver={({target})=>target.style.color='blue'} 
+               onMouseOut={({target}) =>target.style.color="black"}
+                onClick={() => {
+                  window.open("https://www.instagram.com/moazammabatoool");
+                }}
+              />
+            </div>
+          </div>
+        </Card>
+
+        
 
         <Card className={classes.setCardMargin}>
           <div className={classes.imgRadius}>
@@ -158,42 +196,6 @@ const ExperTeam = () => {
           </div>
         </Card>
 
-        <Card className={classes.setCardMargin}>
-          <div className={classes.imgRadius}>
-            <img className={classes.imgWidth} alt="" src={img3} />
-          </div>
-          <div className={classes.setTeamDiv}>
-            <h3>Moazzama Batool</h3>
-            {/* <p>Photographer</p> */}
-            <div className={classes.setIcons}>
-              <FaFacebookF
-               onMouseOver={({target})=>target.style.color='blue'} 
-               onMouseOut={({target}) =>target.style.color="black"}
-                onClick={() => {
-                  window.open("facebook.com/profile.php?id=100076451067682");
-                }}
-                className={classes.setIconMargin}
-              />
-
-              <FaTwitter
-               onMouseOver={({target})=>target.style.color='blue'} 
-               onMouseOut={({target}) =>target.style.color="black"}
-                onClick={() => {
-                  window.open("https://twitter.com/MoazammaB");
-                 
-                }}
-                className={classes.setIconMargin}
-              />
-              <FaInstagram
-               onMouseOver={({target})=>target.style.color='blue'} 
-               onMouseOut={({target}) =>target.style.color="black"}
-                onClick={() => {
-                  window.open("https://www.instagram.com/moazammabatoool");
-                }}
-              />
-            </div>
-          </div>
-        </Card>
 
 
         <Card className={classes.setCardMargin}>

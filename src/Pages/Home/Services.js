@@ -37,7 +37,7 @@ const Services = () => {
            <div id="serviceHeading">
            <h1 id="serviceHeadingH1">MACHINE LEARNING CONSULTING</h1>
             <p id="serviceHeadingPara">Our machine learning consulting will help you enter the data-driven world and modernize your existing business analysis systems. We will help you extract insight from the collected data and turn it into profits and insights.</p>
-            <button id="serviceBtn">Show the details</button>
+            
            </div>
             
 
@@ -51,7 +51,7 @@ const Services = () => {
            <div id="serviceHeading">
            <h1 id="serviceHeadingH1">BUSINESS INTELLIGENCE SERVICES</h1>
             <p id="serviceHeadingPara">Our Business Intelligence Consulting Services will help you extract knowledge from your data, integrate it into (ETL) Enterprise Data Warehouse (EDW), and turn it into daily insights with interactive dashboards using such tools as Power BI.</p>
-            <button id="serviceBtn">Show the details</button>
+            
            </div>
             
 

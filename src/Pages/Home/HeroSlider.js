@@ -32,7 +32,7 @@ const HeroSlider = () => {
             <h3>
               Confused about making new decisions? <br /> We have a solution!!{" "}
             </h3>
-            <Link style={{ textDecoration: "none" }} to="/contactform">
+            <Link style={{ textDecoration: "none" }} to="/login">
               <button id="btn-slider" className="btn primary">Contact Us</button>
             </Link>
           </div>

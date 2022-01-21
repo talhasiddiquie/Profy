@@ -27,7 +27,9 @@ const useStyles = makeStyles((theme) => ({
         color:"#919191",fontSize:"15px",fontWeight:"400"
        },
        parentDiv:{
-        padding:"25px 29px"
+        padding:"25px 29px",
+        display: "flex",
+        flexDirection: "column-reverse"
        },
        headingSet:{
         textDecoration:"none",fontWeight:"500",color:"#001D38",fontSize:"18px"
@@ -96,7 +98,7 @@ const CaseStudyInnerPage = () => {
             marginRight: "auto",
           }}
         >
-          <h1 style={{ fontSize: "60px" }}>Service</h1>
+          <h1 style={{ fontSize: "60px" }}>Case Study</h1>
         </div>
         </div>
         

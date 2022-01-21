@@ -56,13 +56,13 @@ const WhyourConsulting = () => {
            </h1>
             </div>
           
-           <p style={{paddingRight:"20px",marginTop:"0px"}}>We believe that our success is linked to the success of our clients. First, we study customer business requirements. Our Data Analysis service is key. We employ those services to help to develop a plan. We understand needs and objectives to deliver a quality solution. And we make you aware of all available options. This process allows us to provide you with competent advice. This assistance enables you to make an informed business decision.
+           <p style={{fontSize:'20px',paddingRight:"20px",marginTop:"0px"}}>We believe that our success is linked to the success of our clients. First, we study customer business requirements. Our Data Analysis service is key. We employ those services to help to develop a plan. We understand needs and objectives to deliver a quality solution. And we make you aware of all available options. This process allows us to provide you with competent advice. This assistance enables you to make an informed business decision.
 </p>
 
           <div style={{display:"flex",justifyContent:"flex-start",width:"100%",marginTop:"10px"}}>
-          <Button style={{background:"linear-gradient(to bottom, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%)",color:"white",padding:"13px 40px",borderRadius:"25px"}}>
+          {/* <Button style={{background:"linear-gradient(to bottom, #0181f5 0%, rgba(93, 178, 255, 0.99) 100%)",color:"white",padding:"13px 40px",borderRadius:"25px"}}>
              About Us
-           </Button>
+           </Button> */}
           </div>
           
           </div>
