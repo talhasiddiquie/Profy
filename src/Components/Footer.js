@@ -33,10 +33,19 @@ export default function Footer() {
                <p>ST-16 University Rd, Block 5 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh</p>
               </Box>
               <div >
-                 <FaFacebookF  className="footerIcons"/>
+              
+                <FaFacebookF  onClick={() => {
+                  window.open("https://www.facebook.com");
+                }}  className="footerIcons"/>
+                
+                
                  
-                     <FaTwitter  className="footerIcons"/>
-                    <FaInstagram  className="footerIcons"/>
+                     <FaTwitter onClick={() => {
+                  window.open("https://www.twitter.com");
+                }}    className="footerIcons"/>
+                    <FaInstagram onClick={() => {
+                  window.open("https://www.instagram.com");
+                }}   className="footerIcons"/>
               </div>
                
                

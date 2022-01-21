@@ -52,7 +52,7 @@ const WhyourConsulting = () => {
           <div className={classes.headingSet}>
             <div style={{display:"flex",justifyContent:"flex-start",width:"100%",}}>
             <h1 className={classes.h1Set}>
-           Why our Consulting?
+           Why <strong style={{color:"rgb(13, 110, 253)"}}> our </strong> Consulting?
            </h1>
             </div>
           

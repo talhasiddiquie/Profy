@@ -132,7 +132,7 @@ const CaseStudyInnerPage = () => {
             {type.name}
              </h5>
              <h3>
-             <a className={classes.headingSet} href="!#">{type.desc}</a>
+             <a className={classes.headingSet} >{type.desc}</a>
              </h3>
              </div>
           </div>
