@@ -35,7 +35,7 @@ export default function Footer() {
               <div >
               
                 <FaFacebookF  onClick={() => {
-                  window.open("https://www.facebook.com");
+                  window.open("https://www.facebook.com/Business-Solutions-100598259185296");
                 }}  className="footerIcons"/>
                 
                 
@@ -44,7 +44,7 @@ export default function Footer() {
                   window.open("https://www.twitter.com");
                 }}    className="footerIcons"/>
                     <FaInstagram onClick={() => {
-                  window.open("https://www.instagram.com");
+                  window.open("https://www.instagram.com/bsteam871/");
                 }}   className="footerIcons"/>
               </div>
                
