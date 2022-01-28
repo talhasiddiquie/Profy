@@ -93,6 +93,7 @@ const Login = () => {
             id="outlined-basic"
             label="Email"
             variant="outlined"
+            InputLabelProps={ { shrink: true } }
             value={email}
             placeholder="Email"
             onChange={(e) => setEmail(e.target.value)}
@@ -103,6 +104,7 @@ const Login = () => {
             label="Password"
             type="password"
             variant="outlined"
+            InputLabelProps={ { shrink: true } }
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}

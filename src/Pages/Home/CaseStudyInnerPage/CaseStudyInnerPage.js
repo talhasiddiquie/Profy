@@ -131,9 +131,9 @@ const CaseStudyInnerPage = () => {
              <h5 className={classes.spanDiv}>
             {type.name}
              </h5>
-             <h3>
-             <a className={classes.headingSet} >{type.desc}</a>
-             </h3>
+            
+             <h3 className={classes.headingSet} >{type.desc}</h3>
+            
              </div>
           </div>
         </Card>

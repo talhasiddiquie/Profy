@@ -108,6 +108,7 @@ const Signup = () => {
             label="Email"
             variant="outlined"
             value={email}
+            InputLabelProps={ { shrink: true } }
             placeholder="Email"
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -117,6 +118,7 @@ const Signup = () => {
             label="Password"
             type="password"
             variant="outlined"
+            InputLabelProps={ { shrink: true } }
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
