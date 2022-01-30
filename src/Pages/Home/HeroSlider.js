@@ -33,7 +33,7 @@ const HeroSlider = () => {
               Confused about making new decisions? <br /> We have a solution!!{" "}
             </h3>
             <Link style={{ textDecoration: "none" }} to="/login">
-              <button id="btn-slider" className="btn primary">Contact Us</button>
+              <button id="btn-slider" className="btn primary">Login</button>
             </Link>
           </div>
         </Carousel.Caption>

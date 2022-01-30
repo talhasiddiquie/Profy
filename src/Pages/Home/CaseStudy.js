@@ -92,9 +92,9 @@ const CaseStudy = () => {
              <h5 className={classes.spanDiv}>
              The new system was 100 times faster compared to the old one and could process 1,000 different data formats.
              </h5>
-             <h3>
-             <a className={classes.headingSet} href="!#">Big Data Implementation for Channel in 10+ Countries</a>
-             </h3>
+            
+             <h3 className={classes.headingSet} href="!#">Big Data Implementation for Channel in 10+ Countries</h3>
+            
              </div>
           </div>
         </Card>
@@ -106,9 +106,9 @@ const CaseStudy = () => {
              <h5 className={classes.spanDiv}>
              The company's star product hybrid mobile apps now power T-Mobile,Orange and other telecom industry leaders.
              </h5>
-             <h3>
-             <a className={classes.headingSet} href="!#">Development Web-based Management System</a>
-             </h3>
+            
+             <h3 className={classes.headingSet} href="!#">Development Web-based Management System</h3>
+             
              </div>
           </div>
         </Card>
@@ -120,9 +120,9 @@ const CaseStudy = () => {
              <h5 className={classes.spanDiv}>
              Solution consists of  application for management and reporting along with an analytical data warehouse.
              </h5>
-             <h3>
-             <a className={classes.headingSet} href="!#">BI Implementation for Healthcare Centers</a>
-             </h3>
+            
+             <h3 className={classes.headingSet} href="!#">BI Implementation for Healthcare Centers</h3>
+             
              </div>
           </div>
         </Card>
